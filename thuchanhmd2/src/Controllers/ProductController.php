@@ -45,7 +45,7 @@ class ProductController extends BaseController
         } else {
             $data = [
                 "name" => $_POST["name"],
-                "sector" => $_POST["category"],
+                "category" => $_POST["category"],
                 "price" => $_POST["price"],
                 "quantity" => $_POST["quantity"],
                 "description" => $_POST["description"],
@@ -63,7 +63,7 @@ class ProductController extends BaseController
         } else {
             $data = [
                 "name" => $_POST["name"],
-                "sector" => $_POST["category"],
+                "category" => $_POST["category"],
                 "price" => $_POST["price"],
                 "quantity" => $_POST["quantity"],
                 "description" => $_POST["description"],
